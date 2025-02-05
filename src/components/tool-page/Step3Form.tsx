@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
-import { LoaderCircle, Check } from 'lucide-react';
+import { LoaderCircle } from 'lucide-react';
 import { CaptchaCheckbox } from './CaptchaCheckbox';
-import Link from 'next/link';
 
 interface Step3FormProps {
   username: string;

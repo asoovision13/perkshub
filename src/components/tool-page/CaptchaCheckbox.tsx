@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
+import Image from 'next/image';
 
 interface CaptchaCheckboxProps {
   isChecked: boolean;
@@ -39,15 +40,17 @@ export const CaptchaCheckbox = ({ isChecked, handleCheckboxToggle }: CaptchaChec
         </motion.label>
       </div>
 
-      <div className="">
+      <div >
         <p className="font-semibold text-gray-800 text-xs">I'm not a robot</p>
       </div>
 
       <div className=" text-center flex flex-col justify-center items-center">
-        <img
-          src="https://i.imgur.com/zmlMQDE.png"
-          alt="Captcha logo"
-          className="w-6"
+        <Image
+        src="https://i.imgur.com/zmlMQDE.png"
+        width={4}
+        height={4}
+        alt="Captcha logo"
+        className="w-7"
         />
         <p className="text-xxs text-gray-500">reCAPTCHA</p>
         <small className="text-gray-400 text-xxs">Privacy - Terms</small>

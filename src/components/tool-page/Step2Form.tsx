@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ProgressBar } from './ProgressBar';
