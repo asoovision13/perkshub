@@ -41,7 +41,7 @@ export const CaptchaCheckbox = ({ isChecked, handleCheckboxToggle }: CaptchaChec
       </div>
 
       <div >
-        <p className="font-semibold text-gray-800 text-xs">I'm not a robot</p>
+        <p className="font-semibold text-gray-800 text-xs">Im not a robot</p>
       </div>
 
       <div className=" text-center flex flex-col justify-center items-center">
