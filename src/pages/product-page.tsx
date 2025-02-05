@@ -110,7 +110,7 @@ export default function ProductPage({game}:any) {
   };
 
   if (!game) {
-    return <p className='text-center mt-4'>Game not found: {game.shortcut}</p>;
+    return <p className='text-center mt-4'>Game not found</p>;
   }
 
   return (
