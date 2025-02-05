@@ -10,7 +10,7 @@ function GameCard({ game }:any) {
 
   return (
     <motion.div
-     className='max-w-56 w-1/2 p-5 m-2 flex flex-col rounded-md shadow-xl shadow-gray-200 border-card'
+     className='w-56 max-sm:w-36 p-5 m-2 flex flex-col rounded-md shadow-xl shadow-gray-200 border-card'
      initial={{ y: 0 }}
       whileHover={{ y: -10 }} // Slide up by 10px on hover
       exit={{ y: 0, opacity: 0 }} // Slide back down and fade out when exiting
@@ -24,7 +24,7 @@ function GameCard({ game }:any) {
       <Link href={`/tool/${game.shortcut}`} >
       
         <div className='flex justify-center items-center flex-col space-y-3 mt-4'>
-          <div className="relative w-32 h-32 rounded-full overflow-hidden">
+          <div className="relative w-32 h-32  max-sm:w-16 max-sm:h-16 rounded-full overflow-hidden">
             <Image
               src={game.logo}
               alt={game.name}

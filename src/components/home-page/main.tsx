@@ -17,7 +17,7 @@ function Main() {
       {/* Header Section */}
       <div className="flex justify-center">
         <div className="items-center w-2/3 p-4 text-center">
-          <h4 className='text-muted-foreground text-lg font-extralight'>
+          <h4 className='text-muted-foreground text-lg max-sm:text-sm font-extralight'>
             Unlock premium features, boost your progress, and elevate your experience effortlessly. AppBloop is your go-to tool for endless possibilities.
           </h4>
         </div>
@@ -30,7 +30,7 @@ function Main() {
           value={searchTerm} 
           onChange={(e) => setSearchTerm(e.target.value)} 
           placeholder="Search games..." 
-          className="p-2 w-1/3 border rounded-md"
+          className="p-2 max-sm:w-2/3 border rounded-md w-1/3"
         />
       </div>
 
