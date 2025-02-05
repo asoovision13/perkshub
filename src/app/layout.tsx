@@ -50,7 +50,7 @@ export default function RootLayout({
       />
       </head>
       <body
-         className={`${montserrat.variable} antialiased`}
+         className={`${montserrat.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
         {children}

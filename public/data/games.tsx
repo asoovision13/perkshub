@@ -15,7 +15,7 @@ export const games = [
   },
   {
     name: "Coin Master",
-    logo: "coinmaster.png",
+    logo: "coinMaster.png",
     rating: 5,
     shortcut: "CM",
     coinlogo: "https://i.imgur.com/YvE1GPz.png",

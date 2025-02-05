@@ -115,7 +115,7 @@ export default function ProductPage({game}:any) {
   }
 
   return (
-    <div className="flex flex-col items-center relative w-full min-h-screen bg-cover pb-5" style={{ backgroundImage: `url(${game.backgroundImage})` }}>
+    <div className="flex flex-col items-center relative w-full min-h-screen bg-cover" style={{ backgroundImage: `url(${game.backgroundImage})` }}>
       <AnimatePresence>
         {!showContent && <LoadingScreen progress={progress} />}
       </AnimatePresence>
@@ -124,7 +124,7 @@ export default function ProductPage({game}:any) {
         <>
           <GameHeader logo={game.logo} name={game.name} description="Latest updated online tool for DLS 25 Free Coins & Diamonds, tested and working on 4 February, 2025." />
 
-          <div  className="relative w-full h-full">
+          <div  className="relative w-full h-full pb-5">
             <div className="z-10 absolute w-screen h-60 pt-4 -top-1 max-sm:h-64">
               <Image src={`${prefix}download.svg`} alt={game.name} layout="fill" objectFit="cover" />
             </div>

@@ -13,7 +13,7 @@ function Main() {
   );
 
   return (
-    <div className='mb-10'>
+    <div className='mb-10 min-h-screen'>
       {/* Header Section */}
       <div className="flex justify-center">
         <div className="items-center w-2/3 p-4 text-center">
