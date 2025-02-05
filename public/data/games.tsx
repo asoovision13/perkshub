@@ -1,7 +1,7 @@
 export const games = [
   {
     name: "DLS 25",
-    logo: "/dls25.jpg",
+    logo: "dls25.jpg",
     rating: 4,
     shortcut: "DLS25",
     coinlogo: "https://i.imgur.com/YvE1GPz.png",
