@@ -1,7 +1,7 @@
 export const games = [
   {
     name: "DLS 25",
-    logo: "/dls25.jpg",
+    logo: "dls25.jpg",
     rating: 4,
     shortcut: "DLS25",
     coinlogo: "https://i.imgur.com/YvE1GPz.png",
@@ -15,7 +15,7 @@ export const games = [
   },
   {
     name: "Coin Master",
-    logo: "/CoinMaster.png",
+    logo: "coinMaster.png",
     rating: 5,
     shortcut: "CM",
     coinlogo: "https://i.imgur.com/YvE1GPz.png",
@@ -29,7 +29,7 @@ export const games = [
   },
   {
     name: "FC Mobile",
-    logo: "/FCMobile.png",
+    logo: "fCMobile.png",
     rating: 3,
     shortcut: "FCM",
     coinlogo: "https://i.imgur.com/YvE1GPz.png",
@@ -43,7 +43,7 @@ export const games = [
   },
   {
     name: "eFootball™️",
-    logo: "/eFootball.png",
+    logo: "eFootball.png",
     rating: 3,
     shortcut: "EF",
     coinlogo: "https://i.imgur.com/g6kdAc7.png",
@@ -57,7 +57,7 @@ export const games = [
   },
   {
     name: "Pocket FM",
-    logo: "/PocketFM.png",
+    logo: "pocketFM.png",
     rating: 3,
     shortcut: "PFM",
     coinlogo: "https://i.imgur.com/PtThY0H.png",
@@ -71,7 +71,7 @@ export const games = [
   },
   {
     name: "Cooking Fever",
-    logo: "/CookingFever.png",
+    logo: "cookingFever.png",
     rating: 3,
     shortcut: "CF",
     coinlogo: "https://i.imgur.com/mki2SIB.png",
@@ -85,7 +85,7 @@ export const games = [
   },
   {
     name: "Dragon Mania Legends",
-    logo: "/DragonManiaLegends.png",
+    logo: "dragonManiaLegends.png",
     rating: 3,
     shortcut: "DML",
     coinlogo: "https://i.imgur.com/8GczKD4.png",
@@ -99,7 +99,7 @@ export const games = [
   },
   {
     name: "Dragon City",
-    logo: "/DragonCity.png",
+    logo: "dragonCity.png",
     rating: 3,
     shortcut: "DC",
     coinlogo: "https://i.imgur.com/xfdRxIA.png",
@@ -113,7 +113,7 @@ export const games = [
   },
   {
     name: "Monopoly GO",
-    logo: "/MonopolyGO.png",
+    logo: "monopolyGO.png",
     rating: 3,
     shortcut: "MG",
     coinlogo: "https://i.imgur.com/q67UEsk.png",
@@ -127,7 +127,7 @@ export const games = [
   },
   {
     name: "ReelShort",
-    logo: "/ReelShort.png",
+    logo: "reelShort.png",
     rating: 3,
     shortcut: "RS",
     coinlogo: "https://i.imgur.com/nFfK2o3.png",
@@ -141,7 +141,7 @@ export const games = [
   },
   {
     name: "Pokémon GO",
-    logo: "/PokmonGO.png",
+    logo: "pokmonGO.png",
     rating: 3,
     shortcut: "PGO",
     coinlogo: "/pokemongo-coin.png",
@@ -155,7 +155,7 @@ export const games = [
   },
   {
     name: "Shadow Fight 3",
-    logo: "/ShadowFight3.png",
+    logo: "shadowFight3.png",
     rating: 3,
     shortcut: "SF3",
     coinlogo: "https://i.imgur.com/TDfCKVJ.png",
@@ -169,7 +169,7 @@ export const games = [
   },
   {
     name: "DramaBox",
-    logo: "/DramaBox.png",
+    logo: "dramaBox.png",
     rating: 3,
     shortcut: "DB",
     coinlogo: "https://i.imgur.com/PtThY0H.png",
@@ -183,7 +183,7 @@ export const games = [
   },
   {
     name: "Candy Crush Saga",
-    logo: "/CandyCrushSaga.png",
+    logo: "candyCrushSaga.png",
     rating: 3,
     shortcut: "CCS",
     coinlogo: "https://static.wikia.nocookie.net/candy-crush-saga/images/6/67/Goldbar.png",
@@ -197,7 +197,7 @@ export const games = [
   },
   {
     name: "Roblox",
-    logo: "/Roblox.png",
+    logo: "roblox.png",
     rating: 3,
     shortcut: "RBX",
     coinlogo: "/roblox-coin.png",
@@ -211,7 +211,7 @@ export const games = [
   },
   {
     name: "TikTok",
-    logo: "/TikTok.png",
+    logo: "tikTok.png",
     rating: 3,
     shortcut: "TT",
     coinlogo: "/tiktok-coin.png",
@@ -225,7 +225,7 @@ export const games = [
   },
   {
     name: "Top Eleven",
-    logo: "/TopEleven.png",
+    logo: "topEleven.png",
     rating: 3,
     shortcut: "TE",
     coinlogo: "https://i.imgur.com/bJKDqUR.png",
@@ -239,7 +239,7 @@ export const games = [
   },
   {
     name: "Call of Duty: Mobile",
-    logo: "/CallofDutyMobile.png",
+    logo: "callofDutyMobile.png",
     rating: 3,
     shortcut: "CODM",
     coinlogo: "/codm-coin.png",
@@ -253,7 +253,7 @@ export const games = [
   },
   {
     name: "Baseball 9",
-    logo: "/Baseball9.png",
+    logo: "baseball9.png",
     rating: 3,
     shortcut: "BB9",
     coinlogo: "/baseball9-coin.png",
@@ -267,7 +267,7 @@ export const games = [
   },
   {
     name: "Block Blast",
-    logo: "/BlockBlast.png",
+    logo: "blockBlast.png",
     rating: 3,
     shortcut: "BB",
     coinlogo: "/blockblast-coin.png",
@@ -281,7 +281,7 @@ export const games = [
   },
   {
     name: "Car Parking Multiplayer",
-    logo: "/CarParkingMultiplayer.png",
+    logo: "carParkingMultiplayer.png",
     rating: 3,
     shortcut: "CPM",
     coinlogo: "/carparking-coin.png",
@@ -295,7 +295,7 @@ export const games = [
   },
   {
     name: "Subway Surfers",
-    logo: "/SubwaySurfers.png",
+    logo: "subwaySurfers.png",
     rating: 3,
     shortcut: "SS",
     coinlogo: "https://i.imgur.com/bJKDqUR.png",
@@ -309,7 +309,7 @@ export const games = [
   },
   {
     name: "Homescapes",
-    logo: "/Homescapes.png",
+    logo: "homescapes.png",
     rating: 3,
     shortcut: "HS",
     coinlogo: "/homescapes-coin.png",
@@ -323,7 +323,7 @@ export const games = [
   },
   {
     name: "Gardenscapes",
-    logo: "/Gardenscapes.png",
+    logo: "gardenscapes.png",
     rating: 3,
     shortcut: "GS",
     coinlogo: "/gardenscapes-coin.png",
@@ -337,7 +337,7 @@ export const games = [
   },
   {
     name: "Township",
-    logo: "/Township.png",
+    logo: "township.png",
     rating: 3,
     shortcut: "TS",
     coinlogo: "/township-coin.png",
@@ -351,7 +351,7 @@ export const games = [
   },
   {
     name: "Royal Match",
-    logo: "/RoyalMatch.png",
+    logo: "royalMatch.png",
     rating: 3,
     shortcut: "RM",
     coinlogo: "/royalmatch-coin.png",
@@ -365,7 +365,7 @@ export const games = [
   },
   {
     name: "SimCity BuildIt",
-    logo: "/SimCityBuildIt.png",
+    logo: "simCityBuildIt.png",
     rating: 3,
     shortcut: "SCB",
     coinlogo: "/simcity-coin.png",
@@ -379,7 +379,7 @@ export const games = [
   },
   {
     name: "Whiteout Survival",
-    logo: "/WhiteoutSurvival.png",
+    logo: "whiteoutSurvival.png",
     rating: 3,
     shortcut: "WS",
     coinlogo: "/whiteout-coin.png",
@@ -393,7 +393,7 @@ export const games = [
   },
   {
     name: "RealRacing3",
-    logo: "/RealRacing3.png",
+    logo: "realRacing3.png",
     rating: 3,
     shortcut: "RR3",
     coinlogo: "/realracing3-coin.png",
@@ -407,7 +407,7 @@ export const games = [
   },
   {
     name: "The Sims™ FreePlay",
-    logo: "/TheSimsFreePlay.png",
+    logo: "theSimsFreePlay.png",
     rating: 3,
     shortcut: "TSFP",
     coinlogo: "/thesimsfreeplay-coin.png",
@@ -421,7 +421,7 @@ export const games = [
   },
   {
     name: "Pokémon TCG Pocket",
-    logo: "/PokmonTCGPocket.png",
+    logo: "pokmonTCGPocket.png",
     rating: 3,
     shortcut: "PTCGP",
     coinlogo: "/pokemontcg-coin.png",
@@ -435,7 +435,7 @@ export const games = [
   },
   {
     name: "Bitlife",
-    logo: "/Bitlife.png",
+    logo: "bitlife.png",
     rating: 3,
     shortcut: "BL",
     coinlogo: "/bitlife-coin.png",
@@ -449,7 +449,7 @@ export const games = [
   },
   {
     name: "LastWar",
-    logo: "/LastWar.png",
+    logo: "lastWar.png",
     rating: 3,
     shortcut: "LW",
     coinlogo: "/lastwar-coin.png",
@@ -463,7 +463,7 @@ export const games = [
   },
   {
     name: "Archero 2",
-    logo: "/Archero2.png",
+    logo: "achero2.png",
     rating: 3,
     shortcut: "A2",
     coinlogo: "/archero2-coin.png",

@@ -15,6 +15,7 @@ import { Step1Form } from '@/components/tool-page/Step1Form';
 import { Step2Form } from '@/components/tool-page/Step2Form';
 import { Step3Form } from '@/components/tool-page/Step3Form';
 import Image from 'next/image';
+import { prefix } from '@/lib/utils';
 
 
 
@@ -110,7 +111,7 @@ export default function ProductPage({game}:any) {
   };
 
   if (!game) {
-    return <p className='text-center mt-4'>Game not found</p>;
+    return <p className='text-center mt-4'>Game not found: {game}</p>;
   }
 
   return (
@@ -125,7 +126,7 @@ export default function ProductPage({game}:any) {
 
           <div  className="relative w-full h-full">
             <div className="z-10 absolute w-screen h-60 pt-4 -top-1 max-sm:h-64">
-              <Image src="/download.svg" alt={game.name} layout="fill" objectFit="cover" />
+              <Image src={`${prefix}download.svg`} alt={game.name} layout="fill" objectFit="cover" />
             </div>
 
             <div className="flex justify-center items-center w-full h-full">
